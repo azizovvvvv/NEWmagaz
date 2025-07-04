@@ -1,0 +1,15 @@
+.all_Card {
+	width: 327px;
+	height: 600px;
+	border-radius: 8px;
+	font-size: 25px;
+	box-shadow: 0 0 10px gray;
+	padding-left: 25px;
+}
+.get {
+	width: 293px;
+	height: 51px;
+	border-radius: 10px;
+	background-color: black;
+	color: #2ee2b7;
+}
