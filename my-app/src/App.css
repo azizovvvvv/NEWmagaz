@@ -95,3 +95,30 @@
 	text-align: center;
 	padding-top: 25px;
 }
+.unknow {
+	position: absolute;
+
+	left: 100px;
+}
+.victor2 {
+	position: absolute;
+	right: 100px;
+	top: 30px;
+}
+.victor3 {
+	position: absolute;
+	left: 10px;
+	top: 1300px;
+}
+.victtor2 {
+	position: absolute;
+	top: 1320px;
+	right: 10px;
+}
+body {
+	font-family: 'Golos Text', sans-serif;
+}
+.myCustomText {
+	font-family: 'Golos Text', sans-serif;
+	font-weight: 700; /* ё 400, 500, 900... */
+}

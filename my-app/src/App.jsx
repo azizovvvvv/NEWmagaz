@@ -13,6 +13,9 @@ import Surati3 from './assets/surati 3.svg'
 import Surati4 from './assets/surati 4.svg'
 import Surati5 from './assets/surati 5.svg'
 import Surati6 from './assets/surati 6.svg'
+import Unknowimg from './assets/Vector 1 (1).svg'
+import Victor2 from './assets/Vector 2.svg'
+import Victor3 from './assets/Vector 3.svg'
 import Card from './components/card'
 import Text from './components/text'
 export default function Home() {
@@ -22,6 +25,7 @@ export default function Home() {
 				<div className='header'>
 					<div className='imgStartup'>
 						<img src={ImgStartup} alt='' />
+						<img src={Unknowimg} alt='' className='unknow' />
 					</div>
 
 					<div className='header_text'>
@@ -30,8 +34,8 @@ export default function Home() {
 						<h2>Pages</h2>
 						<h2>Contact</h2>
 					</div>
-
 					<button className='concat'>Contact us</button>
+					<img src={Victor2} alt='' className='victor2' />
 				</div>
 				<div className='selection1'>
 					<div className='img_selection1'>
@@ -53,6 +57,10 @@ export default function Home() {
 					</div>
 				</div>{' '}
 			</div>
+			<br />
+			<br />
+			<br />
+			<br />
 			<br />
 			<div className='selection2'>
 				<div className='text_selection2'>
@@ -78,6 +86,7 @@ export default function Home() {
 					<img src={Compa} alt='' />
 				</div>
 			</div>
+
 			<br />
 			<br />
 			<br />
@@ -95,6 +104,8 @@ export default function Home() {
 						We plan and help you run your dream business <br />
 						wisely. We are currently the most popular startup{' '}
 					</p>
+					<img src={Victor3} className='victor3' alt='' />
+					<img src={Victor2} alt='' className='victtor2' />
 				</div>
 				<br />
 				<br />
@@ -150,7 +161,6 @@ export default function Home() {
 					/>
 				</div>
 			</div>
-
 			<br />
 			<br />
 			<br />
